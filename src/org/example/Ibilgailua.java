@@ -1,9 +1,9 @@
 package org.example;
 
 public class Ibilgailua {
-    String modeloa;
-    String marka;
-    Integer prezioa;
+    private String modeloa;
+    private String marka;
+    private Integer prezioa;
 
     public Ibilgailua(String marka, String modeloa, Integer prezioa){
         this.marka = marka;
@@ -13,5 +13,31 @@ public class Ibilgailua {
 
     public void erakutsiDatuak(){
         System.out.println("Marka: " + marka + " Modeloa: " + modeloa + " Prezioa: " + prezioa);
+    }
+
+    public String getModeloa(String modeloa){
+        return modeloa;
+    }
+
+    public void setModeloa(String modeloa) {
+        this.modeloa = modeloa;
+    }
+
+    public String getMarka() {
+        return marka;
+    }
+
+    public void setMarka(String marka) {
+        this.marka = marka;
+    }
+
+    public Integer getPrezioa() {
+        return prezioa;
+    }
+
+    public void setPrezioa(Integer prezioa) {
+        if (prezioa > 0){
+            this.prezioa = prezioa;
+        }
     }
 }

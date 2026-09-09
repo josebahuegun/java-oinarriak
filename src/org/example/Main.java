@@ -7,6 +7,8 @@ public class Main {
         Ibilgailua ibilgailua = new Ibilgailua("Seat", "Leon", 2000);
 
         ibilgailua.erakutsiDatuak();
+        ibilgailua.setMarka("Tonto");
+        ibilgailua.erakutsiDatuak();
     }
 }
 
