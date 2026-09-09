@@ -9,6 +9,9 @@ public class Main {
         ibilgailua.erakutsiDatuak();
         ibilgailua.setMarka("Tonto");
         ibilgailua.erakutsiDatuak();
+
+        kotxea kotxea = new kotxea("joseba", "huegun", 4000);
+        kotxea.erakutsiDatuak();
     }
 }
 
