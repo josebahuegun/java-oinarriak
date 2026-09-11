@@ -15,7 +15,7 @@ public class Ibilgailua {
         System.out.println("Marka: " + marka + " Modeloa: " + modeloa + " Prezioa: " + prezioa);
     }
 
-    public String getModeloa(String modeloa){
+    public String getModeloa() {
         return modeloa;
     }
 

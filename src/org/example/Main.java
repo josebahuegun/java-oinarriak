@@ -12,6 +12,9 @@ public class Main {
 
         kotxea kotxea = new kotxea("joseba", "huegun", 4000);
         kotxea.erakutsiDatuak();
+
+        Motoa motoa = new Motoa("Honda", "CBR", 8000, 600, "Kirol", 2);
+        motoa.erakutsidatuak();
     }
 }
 
