@@ -1,14 +1,24 @@
 package org.example;
 
 public class Ibilgailua {
+
+    private static int kopurua = 0;
+
     private String modeloa;
     private String marka;
     private Integer prezioa;
+
 
     public Ibilgailua(String marka, String modeloa, Integer prezioa){
         this.marka = marka;
         this.modeloa = modeloa;
         this.prezioa = prezioa;
+
+        kopurua++;
+    }
+
+    public static int getKopurua(){
+        return kopurua;
     }
 
     public void erakutsiDatuak(){
@@ -39,5 +49,8 @@ public class Ibilgailua {
         if (prezioa > 0){
             this.prezioa = prezioa;
         }
+    }
+    public void mugitu(){
+        System.out.println("KamioiElektrikoa mugitzen ari da");
     }
 }

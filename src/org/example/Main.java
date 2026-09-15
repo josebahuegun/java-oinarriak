@@ -15,6 +15,12 @@ public class Main {
 
         Motoa motoa = new Motoa("Honda", "CBR", 8000, 600, "Kirol", 2);
         motoa.erakutsidatuak();
+
+        Elektrikoa[] elektrikoa = {
+                new KamioiElektrikoa("Tesla", "Model X", 8)
+        };
+
+        System.out.println("Ibilgailu kopurua: " + Ibilgailua.getKopurua());
     }
 }
 
